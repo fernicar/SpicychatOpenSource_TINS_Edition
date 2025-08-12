@@ -1,5 +1,5 @@
 import openai
 
 
-client=openai.OpenAI(api key="你的API钥"，base url="https://api.laozhang,ai/vl")
-response client.chat.completions.create(model="grok-3",messages=[...])
+client = openai.OpenAI(api_key="your_api_key", base_url="https://api.example.com/v1")
+response = client.chat.completions.create(model="grok-3", messages=[])

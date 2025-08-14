@@ -4,7 +4,7 @@ This plan outlines the steps to create a new desktop GUI for the application usi
 
 ## Phase 1: Setup and Basic Structure
 
-- [ ] **1.1: Install Dependencies:** Add `PySide6==6.7.0` to `requirements.txt` and install it. (Note: using 6.7.0 as it's a recent stable version, will upgrade to >=6.9.0 if specific features are needed as per docs).
+- [ ] **1.1: Install Dependencies:** Add `PySide6==6.9.1` to `requirements.txt` and install it. (Note: using 6.7.0 as it's a recent stable version, will upgrade to >=6.9.1 if specific features are needed as per docs).
 - [ ] **1.2: Create `gui` directory:** Create a new directory named `gui` to house the new GUI code.
 - [ ] **1.3: Create `gui/model.py`:** Create the `model.py` file. This will contain the application's business logic, state management, and interaction with the existing `app/api` and `app/storage` modules.
 - [ ] **1.4: Create `gui/main.py`:** Create the `main.py` file. This will contain the PySide6 application setup, main window, UI components, and event handling.

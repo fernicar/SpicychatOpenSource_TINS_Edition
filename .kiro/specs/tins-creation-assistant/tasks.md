@@ -4,7 +4,7 @@
 
 - [ ] 1. Set up project structure and dependencies
   - Create `gui` directory for desktop application code
-  - Add `PySide6>=6.9.0` to requirements.txt and install
+  - Add `PySide6>=6.9.1` to requirements.txt and install
   - Create basic `gui/__init__.py` file
   - Set up imports for existing app modules (app.api.bs, app.api.ai, app.storage)
   - Create `run_gui.py` launcher script at project root
@@ -154,8 +154,13 @@
     - Test error recovery with different AI providers and failure modes
     - _Requirements: 7.1, 9.1, 9.2, 9.3_
 
-- [ ] 10. Create comprehensive test suite and documentation
+- [-] 10. Create comprehensive test suite and documentation
+
+
+
   - [ ] 10.1 Write unit tests for core components
+
+
     - Create tests for SpicyChatModel class methods and signal emission
     - Add tests for ChatWorker thread functionality and error handling
     - Implement tests for database integration with mock data
